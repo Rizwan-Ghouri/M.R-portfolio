@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-darkcolor:#061e47;
+  --color-textcolor:#ffffff;
+  --color-hover:#68A4F1;
+
+  --container-padding: 1rem;
+  --container-padding-sm: 3rem;
+}
+@layer utilities {
+.page-center {
+  @apply mx-auto max-w-full px-4;
+}
+}
