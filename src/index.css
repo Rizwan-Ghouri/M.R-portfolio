@@ -4,6 +4,7 @@
 
 @theme {
   --color-darkcolor:#061e47;
+  --color-bluecolor:#1F4591;
   --color-textcolor:#ffffff;
   --color-hover:#68A4F1;
 
@@ -12,6 +13,24 @@
 }
 @layer utilities {
 .page-center {
-  @apply mx-auto max-w-full px-4;
+  @apply mx-auto max-w-full px-5;
 }
+}
+
+.circle {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: whiteSmoke;
+  box-shadow: 4px -40px 60px 5px rgb(26, 117, 206) inset;
+}
+.gelatine {
+  animation: gelatine 11s infinite;
+}
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
 }
