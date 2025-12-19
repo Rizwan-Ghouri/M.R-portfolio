@@ -5,7 +5,7 @@ import Heading from "../common/Heading/Heading";
 
 const Navbar = ({ theme, setTheme }) => {
   return (
-    <nav className="container page-center bg-white text-darkcolor dark:bg-darkcolor dark:text-textcolor shadow-md shadow-darkcolor dark:shadow-white px-4 py-1 rounded-b-2xl sticky top-0 inset-x-0 z-50">
+    <nav className="container page-center bg-white text-darkcolor dark:bg-darkcolor dark:text-textcolor shadow-md shadow-darkcolor dark:shadow-white px-4 py-1 sticky top-0 inset-x-0 z-50">
       <div className="flex items-center justify-between py-2 md:px-5">
         <div>
           <Heading
@@ -18,7 +18,7 @@ const Navbar = ({ theme, setTheme }) => {
             {Navlinks.map((data) => {
               return (
                 <li
-                  className="font-semibold text-lg hover:text-bluecolor hover:p-0.5 hover:border-b-4  duration-300 cursor-pointer"
+                  className="font-semibold text-lg hover:p-0.5 hover:border-b-2 hover:text-bluecolor dark:hover:text-hover  duration-300 cursor-pointer"
                   key={data.id}
                 >
                   <a href={data.link}>{data.name}</a>

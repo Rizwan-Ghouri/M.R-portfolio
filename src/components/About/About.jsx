@@ -4,13 +4,16 @@ import mainImage from "/assets/mainImage.jpg";
 import { FaDownload } from "react-icons/fa";
 import Mypdf from "/assets/Muhammad Rizwan CV.pdf";
 
-
 const About = () => {
   return (
     <div className="text-darkcolor bg-hover/35 dark:bg-hover/40 dark:text-darkcolor min-h-150">
       <div className="container page-center p-5 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center min-h-155">
-          <div data-aos="zoom-in" data-aos-duration="1500" className="space-y-4 order-1 sm:order-2 md:p-5 py-7">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            className="space-y-4 order-1 sm:order-2 md:p-5 py-7"
+          >
             <Heading
               headingClass="text-4xl font-semibold font-serif duration-300"
               headingName="About Me"
@@ -26,15 +29,22 @@ const About = () => {
               on writing efficient, maintainable front-end solutions that
               enhance performance and usability across devices”
             </p>
-              <div>
-              <a href={Mypdf} download className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-textcolor duration-300 cursor-pointer mb-5">
-              <FaDownload />
-                Download CV</a>
-              </div>
+            <div>
+              <a
+                href={Mypdf}
+                download
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-textcolor duration-300 cursor-pointer mb-5"
+              >
+                <FaDownload />
+                Download CV
+              </a>
+            </div>
           </div>
-          <div 
-            data-aos="zoom-in" data-aos-duration="1500"
-           className="bg-textcolor dark:bg-darkcolor p-0.5  shadow-darkcolor shadow-xl rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px]  md:order-1">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            className="bg-textcolor dark:bg-darkcolor p-0.5  shadow-darkcolor shadow-xl rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px]  md:order-1"
+          >
             <img
               className="w-2xl md:w-md rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px] "
               src={mainImage}
