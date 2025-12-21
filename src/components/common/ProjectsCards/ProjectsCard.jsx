@@ -52,26 +52,27 @@ const ProjectsCard = ({
                 return <div key={tech}>{tech}</div>;
               })}
             </div>
-            {/* btn */}
-            <div className="flex items-center justify-around space-x-3 text-2xl p-2">
-              <a
-                href={github}
-                className="text-center p-2 hover:text-3xl duration-300 dark:bg-textcolor bg-darkcolor text-textcolor dark:text-darkcolor rounded-2xl"
-                target="_blank"
-                title="Github"
-              >
-                <FaGithub />
-              </a>
-              <a
-                href="https://www.youtube.com/@GhouriDeveloper"
-                className="text-center p-2 hover:text-3xl hover:text-red-700 duration-300 dark:bg-textcolor bg-darkcolor text-textcolor dark:text-darkcolor rounded-2xl"
-                target="_blank"
-                title="Youtube"
-              >
-                <FaYoutube />
-              </a>
-            </div>
           </div>
+        </div>
+
+        {/* btn */}
+        <div className="flex items-center justify-around space-x-3 text-2xl p-2">
+          <a
+            href={github}
+            className="text-center p-2 hover:text-3xl duration-300 dark:bg-textcolor bg-darkcolor text-textcolor dark:text-darkcolor rounded-2xl"
+            target="_blank"
+            title="Github"
+          >
+            <FaGithub />
+          </a>
+          <a
+            href="https://www.youtube.com/@GhouriDeveloper"
+            className="text-center p-2 hover:text-3xl hover:text-red-700 duration-300 dark:bg-textcolor bg-darkcolor text-textcolor dark:text-darkcolor rounded-2xl"
+            target="_blank"
+            title="Youtube"
+          >
+            <FaYoutube />
+          </a>
         </div>
       </div>
     </div>
