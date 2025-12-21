@@ -1,7 +1,6 @@
 import React from "react";
 import Heading from "../common/Heading/Heading";
-import bannerImg from "/assets/features.webp.gif";
-import mainImage from "/assets/mainImage.jpg";
+import bannerImg from "/assets/images/features.webp.gif";
 
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 // import PropTypes from 'prop-types'

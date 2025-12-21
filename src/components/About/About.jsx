@@ -1,23 +1,32 @@
 import React from "react";
 import Heading from "../common/Heading/Heading";
-import mainImage from "/assets/mainImage.jpg";
 import { FaDownload } from "react-icons/fa";
-import Mypdf from "/assets/Muhammad Rizwan CV.pdf";
+import mainImage from "/assets/images/mainImage.jpg";
+import circleImage from "/assets/images/circle-shape.webp";
+import Mypdf from "/assets/images/Muhammad Rizwan CV.pdf";
 
 const About = () => {
   return (
-    <div className="text-darkcolor bg-hover/35 dark:bg-hover/40 dark:text-darkcolor min-h-150">
+    <div
+      id="about"
+      className="text-darkcolor bg-hover/35 dark:bg-hover/40 dark:text-darkcolor min-h-150"
+    >
       <div className="container page-center p-5 ">
-        <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center min-h-155">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-items-center min-h-155">
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
             className="space-y-4 order-1 sm:order-2 md:p-5 py-7"
           >
+            <div className="flex items-center">
+
+            <img className="w-15" src={circleImage} alt="circleImage" />
+
             <Heading
-              headingClass="text-4xl font-semibold font-serif duration-300"
+              headingClass="text-4xl inline font-semibold font-serif duration-300"
               headingName="About Me"
-            />
+              />
+              </div>
             <p className="text-sm text-justify">
               “I am Rizwan Idrees, a passionate Frontend Developer with a strong
               foundation in HTML, CSS, and JavaScript. I specialize in building
@@ -43,7 +52,7 @@ const About = () => {
           <div
             data-aos="zoom-in"
             data-aos-duration="1500"
-            className="bg-textcolor dark:bg-darkcolor p-0.5  shadow-darkcolor shadow-xl rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px]  md:order-1"
+            className="bg-textcolor dark:bg-darkcolor p-0.5 shadow-darkcolor shadow-xl rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px]  md:order-1"
           >
             <img
               className="w-2xl md:w-md rounded-br-[60px] rounded-tl-[60px] rounded-tr-[30px] "

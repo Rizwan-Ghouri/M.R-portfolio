@@ -5,6 +5,7 @@ import About from "../About/About";
 import Skills from "../Skills/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Projects from "../Projects/Projects";
 
 const Home = () => {
   const [theme, setTheme] = useState(
@@ -39,6 +40,7 @@ const Home = () => {
       <Hero theme={theme} />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };
