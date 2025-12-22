@@ -2,12 +2,11 @@ import React from "react";
 import Heading from "../common/Heading/Heading";
 import bannerImg from "/assets/images/features.webp.gif";
 
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-// import PropTypes from 'prop-types'
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="text-darkcolor dark:bg-darkcolor dark:text-white">
+    <div className=" bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor">
       <div className="container page-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center min-h-145 ">
           <div className="space-y-3 order-2 sm:order-1 md:p-5 ">
@@ -49,9 +48,6 @@ const Hero = () => {
               <a href="https://github.com/Rizwan-Ghouri" target="_blank">
                 <FaGithub className="hover:text-3xl hover:text-bluecolor dark:dark:hover:text-hover duration-300" />
               </a>
-              <a href="https://wa.me/923211628950" target="_blank">
-                <FaWhatsapp className="hover:text-3xl hover:text-bluecolor dark:dark:hover:text-hover duration-300" />
-              </a>
             </div>
           </div>
           <div className="order-1 sm:order-2 p-8 ">
@@ -62,9 +58,5 @@ const Hero = () => {
     </div>
   );
 };
-
-// Hero.propTypes = {
-
-// }
 
 export default Hero;

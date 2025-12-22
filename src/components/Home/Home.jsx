@@ -6,6 +6,7 @@ import Skills from "../Skills/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "../Projects/Projects";
+import ContectUs from "../ContectUs/ContectUs";
 
 const Home = () => {
   const [theme, setTheme] = useState(
@@ -34,13 +35,13 @@ const Home = () => {
   }, []);
   
   return (
-    // <div className="bg-white dark:bg-darkcolor dark:text-white">
     <div>
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />
       <Skills />
       <Projects />
+      <ContectUs />
     </div>
   );
 };

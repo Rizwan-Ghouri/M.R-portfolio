@@ -14,7 +14,8 @@ const ProjectsCard = ({
   image,
 }) => {
   return (
-    <div className=" dark:border-textcolor">
+    <div data-aos="fade-up"
+            data-aos-duration="1500" className=" dark:border-textcolor">
       <div className="border-2 rounded-2xl hover:rounded-none hover:shadow-xl hover:shadow-darkcolor duration-500 overflow-hidden">
         <div
           onClick={() => window.open(live, "_blank")}
