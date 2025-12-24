@@ -44,11 +44,11 @@ function ContectUs() {
   return (
     <div
       id="contect"
-      className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor min-h-screen flex items-center pt-10"
+      className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor min-h-screen md:min-h-svh flex items-center pt-10"
     >
       <div data-aos="zoom-in"
             data-aos-duration="1500" className="container page-center flex justify-center p-5">
-        <div className="w-full max-w-xl text-darkcolor dark:text-textcolor dark:shadow-textcolor shadow-darkcolor shadow-lg rounded-lg p-6">
+        <div className="w-full max-w-md text-darkcolor dark:text-textcolor dark:shadow-textcolor shadow-darkcolor shadow-lg rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4 text-center">Contact Me!</h2>
           <form className="space-y-4">
             <div className="md:flex gap-3">
@@ -61,7 +61,7 @@ function ContectUs() {
                   }}
                   type="text"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 border-b-2 border-l-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
               <div className="w-full py-2">
@@ -73,7 +73,7 @@ function ContectUs() {
                   }}
                   type="number"
                   placeholder="Your Contect Number"
-                  className="w-full px-4 py-2 border-b-2 border-l-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
                 />
               </div>
             </div>
@@ -87,7 +87,7 @@ function ContectUs() {
                   }}
                   type="email"
                   placeholder="Email Address"
-                  className="w-full px-4 py-2 border-b-2 border-l-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
                 />
               </div>
               <div className="w-full py-2">
@@ -99,7 +99,7 @@ function ContectUs() {
                   }}
                   type="text"
                   placeholder="Subject"
-                  className="w-full px-4 py-2 border-b-2 border-l-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
                 />
               </div>
             </div>
@@ -113,7 +113,7 @@ function ContectUs() {
                 }}
                 placeholder="Your Message"
                 rows="4"
-                className="w-full px-4 py-2 border-b-2 border-l-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
             </div>
             <button

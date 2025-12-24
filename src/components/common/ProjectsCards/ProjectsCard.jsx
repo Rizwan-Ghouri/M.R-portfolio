@@ -14,8 +14,11 @@ const ProjectsCard = ({
   image,
 }) => {
   return (
-    <div data-aos="fade-up"
-            data-aos-duration="1500" className=" dark:border-textcolor">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      className=" dark:border-textcolor"
+    >
       <div className="border-2 rounded-2xl hover:rounded-none hover:shadow-xl hover:shadow-darkcolor duration-500 overflow-hidden">
         <div
           onClick={() => window.open(live, "_blank")}
@@ -38,21 +41,28 @@ const ProjectsCard = ({
           )}
 
           {/* Content */}
-          <div className="px-2">
+          <div className="px-2 h-32 md:h-32 lg:h-36">
             <Heading
               headingClass="text-xl py-1 font-semibold font-serif duration-300"
               headingName={title}
             />
-            <p className="text-sm py-1">
-              <span className="font-bold">description : </span>
+            <p className="text-sm md:text-md py-1">
+              <span className="font-bold text-lg">description : </span>
               {description}
             </p>
             {/* tech */}
-            <div className="flex flex-wrap items-center justify-center gap-3 text-auto md:gap-4 bg-bluecolor px-2 my-1 text-textcolor font-bold rounded-lg">
+            <marquee className="rounded-lg" behavior="scroll" direction="left">
+
+            <div className="flex lex-wrap items-center gap-3 text-md md:gap-4 px-2 my-1 text-darkcolor font-bold ">
               {tech.map((tech) => {
-                return <div key={tech}>{tech}</div>;
+                return (
+                  <div key={tech}>
+                      {tech}
+                  </div>
+                );
               })}
             </div>
+              </ marquee>
           </div>
         </div>
 

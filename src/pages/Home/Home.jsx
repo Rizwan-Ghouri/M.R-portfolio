@@ -1,13 +1,15 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../Navbar/Navbar";
-import Hero from "../Hero/Hero";
-import About from "../About/About";
-import Skills from "../Skills/Skills";
 import AOS from "aos";
-import "aos/dist/aos.css";
-import Projects from "../Projects/Projects";
-import ContectUs from "../ContectUs/ContectUs";
-import Footer from "../Footer/Footer";
+import "aos/dist/aos.css"
+
+// Components and Sections
+import Navbar from "../../components/Navbar/Navbar";
+import Hero from "../../components/Hero/Hero";
+import About from "../../components/About/About";
+import Skills from "../../components/Skills/Skills";
+import Projects from "../../components/Projects/Projects";
+import ContectUs from "../../components/ContectUs/ContectUs";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const [theme, setTheme] = useState(
@@ -37,6 +39,7 @@ const Home = () => {
   
   return (
     <div>
+
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />
       <About />

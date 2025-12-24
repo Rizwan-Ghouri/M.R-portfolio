@@ -16,7 +16,7 @@ const Projects = () => {
             headingName="My Projects"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-3">
           {ProjectsCards.map((projectData) => {
             const { id, title, description, video, tech, live, github,image } =
               projectData;
