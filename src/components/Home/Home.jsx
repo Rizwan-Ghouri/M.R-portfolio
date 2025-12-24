@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Projects from "../Projects/Projects";
 import ContectUs from "../ContectUs/ContectUs";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   const [theme, setTheme] = useState(
@@ -42,6 +43,7 @@ const Home = () => {
       <Skills />
       <Projects />
       <ContectUs />
+      <Footer />
     </div>
   );
 };

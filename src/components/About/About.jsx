@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../common/Heading/Heading";
-import { FaDownload } from "react-icons/fa";
+import { FaDownload, FaFile } from "react-icons/fa";
 import mainImage from "/assets/images/mainImage.jpg";
 import circleImage from "/assets/images/circle-shape.webp";
 import Mypdf from "/assets/images/Muhammad Rizwan CV.pdf";
@@ -38,7 +38,7 @@ const About = () => {
               on writing efficient, maintainable front-end solutions that
               enhance performance and usability across devices”
             </p>
-            <div>
+            <div className="flex items-center gap-5">
               <a
                 href={Mypdf}
                 download
@@ -46,6 +46,14 @@ const About = () => {
               >
                 <FaDownload />
                 Download CV
+              </a>
+              <a
+                href="https://drive.google.com/file/d/15VyphN2YMefBmLP65j0a3py4XWHAzSDw/view"
+                target="_blank"
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-textcolor duration-300 cursor-pointer mb-5"
+              >
+                <FaFile />
+                Certificate
               </a>
             </div>
           </div>
