@@ -5,7 +5,7 @@ import Heading from "../common/Heading/Heading";
 
 const Navbar = ({ theme, setTheme }) => {
   return (
-    <nav className="container page-center bg-white text-darkcolor dark:bg-darkcolor dark:text-textcolor shadow-md shadow-darkcolor dark:shadow-white px-4 py-1 sticky top-0 inset-x-0 z-50">
+    <nav className="container page-center bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor shadow-md shadow-darkcolor dark:shadow-white px-4 py-1 sticky top-0 inset-x-0 z-50">
       <div className="flex items-center justify-between py-2 md:px-5">
         <div>
           <Heading

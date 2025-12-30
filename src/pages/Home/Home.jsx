@@ -10,6 +10,7 @@ import Skills from "../../components/Skills/Skills";
 import Projects from "../../components/Projects/Projects";
 import ContectUs from "../../components/ContectUs/ContectUs";
 import Footer from "../../components/Footer/Footer";
+import Services from "../Services/Services";
 
 const Home = () => {
   const [theme, setTheme] = useState(
@@ -44,6 +45,7 @@ const Home = () => {
       <Hero theme={theme} />
       <About />
       <Skills />
+      <Services />
       <Projects />
       <ContectUs />
       <Footer />

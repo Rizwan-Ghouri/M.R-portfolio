@@ -42,7 +42,7 @@ const About = () => {
               <a
                 href={Mypdf}
                 download
-                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-textcolor duration-300 cursor-pointer mb-5"
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-darkcolor duration-300 cursor-pointer mb-5"
               >
                 <FaDownload />
                 Download CV
@@ -50,7 +50,7 @@ const About = () => {
               <a
                 href="https://drive.google.com/file/d/15VyphN2YMefBmLP65j0a3py4XWHAzSDw/view"
                 target="_blank"
-                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-textcolor duration-300 cursor-pointer mb-5"
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-darkcolor duration-300 cursor-pointer mb-5"
               >
                 <FaFile />
                 Certificate
