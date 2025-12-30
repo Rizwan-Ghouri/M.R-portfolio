@@ -4,7 +4,7 @@ import ServicesCard from "../../utils/constants/ServicesCard";
 
 const Services = () => {
   return (
-    <div id="services" className="bg-hover text-darkcolor min-h-120 pt-15">
+    <div id="services" className="bg-hover/30 text-darkcolor min-h-120 pb-5 pt-15">
       <div className="container page-center">
         <div className="flex items-center justify-center">
           <Heading
@@ -16,7 +16,7 @@ const Services = () => {
           {ServicesCard.map((data) => {
             const {id, title, description, icon} = data;
             return (
-              <div  key={id}>
+              <div key={id}>
                 <ServicesCards  title={title} description={description} icon={icon} />
               </div>
             );

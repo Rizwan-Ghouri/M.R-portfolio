@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="text-darkcolor bg-hover/35 dark:bg-hover/40 dark:text-darkcolor min-h-150"
+      className="text-darkcolor bg-hover/20 min-h-150"
     >
       <div className="container page-center p-5 ">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-items-center min-h-155">

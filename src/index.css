@@ -3,17 +3,18 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-darkcolor:#061e47;
-  --color-textcolor:#ffffff;
-  --color-hover:#2196F3;
+  --color-darkcolor: #061e47;
+  --color-bluecolor: #2196f3;
+  --color-textcolor: #ffffff;
+  --color-hover: #2196f3;
 
   --container-padding: 1rem;
   --container-padding-sm: 3rem;
 }
 @layer utilities {
-.page-center {
-  @apply mx-auto max-w-full px-5;
-}
+  .page-center {
+    @apply mx-auto max-w-full px-5;
+  }
 }
 
 .circle {
@@ -28,8 +29,17 @@
   animation: gelatine 11s infinite;
 }
 @keyframes gelatine {
-  from, to { transform: scale(1, 1); }
-  25% { transform: scale(0.9, 1.1); }
-  50% { transform: scale(1.1, 0.9); }
-  75% { transform: scale(0.95, 1.05); }
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
 }
