@@ -39,7 +39,7 @@ const Home = () => {
   }, []);
   
   return (
-    <div>
+    <div className="overflow-x-hidden">
 
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero theme={theme} />

@@ -3,10 +3,14 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-darkcolor: #061e47;
+  --color-darkcolor: #061E29;
+  --color-bluecolor: #1D546D;
+  --color-textcolor: #F3F4F4;
+  --color-hover: #5F9598;
+  /* --color-darkcolor: #061e47;
   --color-bluecolor: #2196f3;
   --color-textcolor: #ffffff;
-  --color-hover: #2196f3;
+  --color-hover: #2196f3; */
 
   --container-padding: 1rem;
   --container-padding-sm: 3rem;

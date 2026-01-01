@@ -3,7 +3,7 @@ import Heading from "../common/Heading/Heading";
 
 const Footer = (props) => {
   return (
-    <footer className="bg-white text-darkcolor dark:bg-darkcolor dark:text-textcolor rotate-180 shadow-md shadow-darkcolor dark:shadow-white">
+    <footer className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor rotate-180 shadow-md shadow-darkcolor dark:shadow-textcolor">
       <div className="container page-center py-2 rotate-180 flex items-center gap-5">
         <div>
           <Heading

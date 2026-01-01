@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="text-darkcolor dark:bg-darkcolor dark:text-white py-5 pt-15"
+      className="text-darkcolor dark:bg-darkcolor dark:text-textcolor py-5 pt-15"
     >
       <div className="container page-center">
         <div className="flex items-center justify-center">

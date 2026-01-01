@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className=" bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor">
+    <div className=" bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor pt-5">
       <div className="container page-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center min-h-145 ">
           <div className="space-y-3 order-2 sm:order-1 md:p-5 ">
