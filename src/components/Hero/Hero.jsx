@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="space-y-3 order-2 sm:order-1 md:p-5 ">
             <div data-aos="fade-up" data-aos-delay="0">
               <Heading
-                headingClass="text-md md:text-2xl font-semibold font-serif duration-300"
+                headingClass="text-md md:text-xl font-semibold font-serif duration-300"
                 headingName="Assalamualikom I'm"
               />
             </div>
