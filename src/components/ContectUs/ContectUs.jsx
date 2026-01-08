@@ -46,8 +46,11 @@ function ContectUs() {
       id="contect"
       className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor min-h-screen md:min-h-svh flex items-center pt-10"
     >
-      <div data-aos="zoom-in"
-            data-aos-duration="1500" className="container page-center flex justify-center p-5">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        className="container page-center flex justify-center p-5"
+      >
         <div className="w-full max-w-md text-darkcolor dark:text-textcolor dark:shadow-textcolor shadow-darkcolor shadow-lg rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4 text-center">Contact Me!</h2>
           <form className="space-y-4">
@@ -119,7 +122,8 @@ function ContectUs() {
             <button
               onClick={handleSubmit}
               type="submit"
-              className="w-full bg-blue-500 text-textcolor py-2 rounded-lg hover:bg-blue-600 transition-colors"
+              className="w-full border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-hover
+              dark:hover:bg-hover dark:hover:text-Dhover duration-300 cursor-pointer mb-5"
             >
               Send Message
             </button>
@@ -129,6 +133,5 @@ function ContectUs() {
     </div>
   );
 }
-
 
 export default ContectUs;

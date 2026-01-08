@@ -8,10 +8,10 @@ const ResponsiveMenu = () => {
         {Navlinks.map((links) => {
           return (
             <li
-              className=" text-2xl font-serif hover:text-bluecolor dark:hover:text-hover duration-300"
+              className=" text-xl py-1 font-serif hover:text-Dhover dark:hover:text-hover duration-300"
               key={links.id}
             >
-              <a href={links.link}>{links.name}</a>
+              <a className="hover:border-b-2 " href={links.link}>{links.name}</a>
             </li>
           );
         })}

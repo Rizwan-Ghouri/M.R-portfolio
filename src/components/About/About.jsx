@@ -11,7 +11,7 @@ const About = () => {
       id="about"
       className="text-darkcolor bg-hover/20 min-h-150 pt-10 md:pt-0"
     >
-      <div className="container page-center p-5 ">
+      <div className="container page-center p-5">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 place-items-center min-h-155">
           <div
             data-aos="zoom-in"
@@ -19,15 +19,14 @@ const About = () => {
             className="space-y-4 order-1 sm:order-2 md:p-5 py-7"
           >
             <div className="flex items-center">
+              <img className="w-15" src={circleImage} alt="circleImage" />
 
-            <img className="w-15" src={circleImage} alt="circleImage" />
-
-            <Heading
-              headingClass="text-4xl inline font-semibold font-serif duration-300"
-              headingName="About Me"
+              <Heading
+                headingClass="text-4xl inline font-semibold font-serif duration-300"
+                headingName="About Me"
               />
-              </div>
-            <p className="text-sm text-justify">
+            </div>
+            <p className="text-sm text-justify px-2">
               “I am Rizwan Idrees, a passionate Frontend Developer with a strong
               foundation in HTML, CSS, and JavaScript. I specialize in building
               responsive, user-friendly web applications that offer seamless
@@ -38,11 +37,11 @@ const About = () => {
               on writing efficient, maintainable front-end solutions that
               enhance performance and usability across devices”
             </p>
-            <div className="flex items-center gap-5">
+            <div className="flex items-center gap-1">
               <a
                 href={Mypdf}
                 download
-                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-darkcolor duration-300 cursor-pointer mb-5"
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-hover duration-300 cursor-pointer mb-5"
               >
                 <FaDownload />
                 Download CV
@@ -50,7 +49,7 @@ const About = () => {
               <a
                 href="https://drive.google.com/file/d/15VyphN2YMefBmLP65j0a3py4XWHAzSDw/view"
                 target="_blank"
-                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-bluecolor hover:text-darkcolor duration-300 cursor-pointer mb-5"
+                className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-hover duration-300 cursor-pointer mb-5"
               >
                 <FaFile />
                 Certificate

@@ -28,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
               {Navlinks.map((data) => {
                 return (
                   <li
-                    className="font-semibold text-lg hover:p-0.5 hover:border-b-2 hover:text-bluecolor dark:hover:text-hover  duration-300 cursor-pointer"
+                    className="font-semibold text-lg hover:p-0.5 hover:border-b-1 dark:hover:text-hover  duration-300 cursor-pointer"
                     key={data.id}
                   >
                     <a href={data.link}>{data.name}</a>
@@ -60,10 +60,14 @@ const Navbar = ({ theme, setTheme }) => {
                   onClick={() => setTheme("light")}
                 />
                 {showMenu ? (
-                  <BiWindowClose
-                    className="text-3xl cursor-pointer md:hidden"
-                    onClick={() => setShowMenu(false)}
-                  />
+                  <>
+                    <button
+                      className="text-2xl px-2 cursor-pointer md:hidden"
+                      onClick={() => setShowMenu(false)}
+                    >
+                      X
+                    </button>
+                  </>
                 ) : (
                   <BiMenu
                     className="text-3xl cursor-pointer md:hidden"
@@ -78,10 +82,14 @@ const Navbar = ({ theme, setTheme }) => {
                   onClick={() => setTheme("dark")}
                 />
                 {showMenu ? (
-                  <BiWindowClose
-                    className="text-3xl cursor-pointer md:hidden"
-                    onClick={() => setShowMenu(false)}
-                  />
+                  <>
+                    <button
+                      className="text-2xl px-2 cursor-pointer md:hidden"
+                      onClick={() => setShowMenu(false)}
+                    >
+                      X
+                    </button>
+                  </>
                 ) : (
                   <BiMenu
                     className="text-3xl cursor-pointer md:hidden"
