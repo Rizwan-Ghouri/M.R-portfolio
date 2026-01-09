@@ -41,7 +41,7 @@ const Projects = () => {
           onClick={() =>
             window.open("https://github.com/Rizwan-Ghouri", "_blank")
           }
-          className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-hover duration-300 cursor-pointer mb-5"
+          className="flex items-center justify-around w-40 border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-textcolor duration-300 cursor-pointer mb-5"
         >
           All Projects
         </button>

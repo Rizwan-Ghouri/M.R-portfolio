@@ -28,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
               {Navlinks.map((data) => {
                 return (
                   <li
-                    className="font-semibold text-lg hover:p-0.5 hover:border-b-2 dark:hover:text-hover duration-300 cursor-pointer"
+                    className="font-semibold text-lg hover:p-0.5 hover:border-b-2 duration-300 cursor-pointer"
                     key={data.id}
                   >
                     <a href={data.link}>{data.name}</a>

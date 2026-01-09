@@ -44,16 +44,16 @@ function ContectUs() {
   return (
     <div
       id="contect"
-      className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor min-h-screen md:min-h-svh flex items-center pt-10"
+      className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor flex items-center pt-10 md:h-screen"
     >
       <div
         data-aos="zoom-in"
         data-aos-duration="1500"
-        className="container page-center flex justify-center p-5"
+        className="container page-center flex justify-center p-2"
       >
         <div className="w-full max-w-md text-darkcolor dark:text-textcolor dark:shadow-textcolor shadow-darkcolor shadow-lg rounded-lg p-6">
           <h2 className="text-2xl font-bold mb-4 text-center">Contact Me!</h2>
-          <form className="space-y-4">
+          <form className="space-y-2">
             <div className="md:flex gap-3">
               <div className="w-full py-2">
                 <label className="block mb-1 font-medium">Name</label>
@@ -64,7 +64,7 @@ function ContectUs() {
                   }}
                   type="text"
                   placeholder="Your Name"
-                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:border-0"
                 />
               </div>
               <div className="w-full py-2">
@@ -76,12 +76,12 @@ function ContectUs() {
                   }}
                   type="number"
                   placeholder="Your Contect Number"
-                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:border-0"
                 />
               </div>
             </div>
             <div className="md:flex gap-3">
-              <div className="w-full py-2">
+              <div className="w-full py-1">
                 <label className="block mb-1 font-medium">Email</label>
                 <input
                   value={email}
@@ -90,10 +90,10 @@ function ContectUs() {
                   }}
                   type="email"
                   placeholder="Email Address"
-                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:border-0"
                 />
               </div>
-              <div className="w-full py-2">
+              <div className="w-full py-1">
                 <label className="block mb-1 font-medium">Subject</label>
                 <input
                   value={subject}
@@ -102,7 +102,7 @@ function ContectUs() {
                   }}
                   type="text"
                   placeholder="Subject"
-                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:border-0"
                 />
               </div>
             </div>
@@ -115,15 +115,15 @@ function ContectUs() {
                   setMessage(e.target.value);
                 }}
                 placeholder="Your Message"
-                rows="4"
-                className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                rows="3"
+                className="w-full px-4 py-2 border-b-2 rounded-lg focus:outline-none focus:ring-2 focus:border-0"
               ></textarea>
             </div>
             <button
               onClick={handleSubmit}
               type="submit"
-              className="w-full border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-hover
-              dark:hover:bg-hover dark:hover:text-Dhover duration-300 cursor-pointer mb-5"
+              className="w-full border-2 p-2 rounded-lg font-semibold hover:bg-Dhover hover:text-textcolor
+              dark:hover:bg-textcolor dark:hover:text-Dhover duration-300 cursor-pointer mb-5"
             >
               Send Message
             </button>

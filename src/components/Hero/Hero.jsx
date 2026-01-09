@@ -43,10 +43,10 @@ const Hero = () => {
                 href="https://www.linkedin.com/in/m-rizwanidrees/"
                 target="_blank"
               >
-                <FaLinkedinIn className="hover:text-3xl dark:hover:text-hover duration-300" />
+                <FaLinkedinIn className="hover:text-3xl duration-300" />
               </a>
               <a href="https://github.com/Rizwan-Ghouri" target="_blank">
-                <FaGithub className="hover:text-3xl dark:hover:text-hover duration-300" />
+                <FaGithub className="hover:text-3xl duration-300" />
               </a>
             </div>
           </div>
