@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Navlinks } from "../../utils/constants/Navlink";
 
-const ResponsiveMenu = () => {
+const ResponsiveMenu = ({ setShowMenu }) => {
   return (
-    <div className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor sticky top-10 md:hidden">
+    <div className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor  md:hidden">
       <ul className="p-2 shadow-darkcolor dark:shadow-textcolor">
         {Navlinks.map((links) => {
           return (
@@ -11,7 +11,13 @@ const ResponsiveMenu = () => {
               className=" text-xl py-1 font-serif hover:text-Dhover dark:hover:text-hover duration-300"
               key={links.id}
             >
-              <a className="hover:border-b-2 " href={links.link}>{links.name}</a>
+              <a
+                href={links.link}
+                className="hover:border-b-2 block"
+                onClick={() => setShowMenu(false)}
+              >
+                {links.name}
+              </a>
             </li>
           );
         })}
