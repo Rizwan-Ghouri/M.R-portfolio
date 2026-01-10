@@ -18,7 +18,7 @@ const Hero = () => {
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <Heading
-                headingClass="text-xl md:text-3xl font-semibold font-serif duration-300 text-orange-400"
+                headingClass="text-xl md:text-3xl font-semibold font-serif duration-300 text-red-900 dark:text-yellow-400 "
                 headingName="Muhammad Rizwan"
               />
             </div>

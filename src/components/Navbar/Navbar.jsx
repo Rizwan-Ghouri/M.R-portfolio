@@ -19,7 +19,7 @@ const Navbar = ({ theme, setTheme }) => {
         <div className="flex items-center justify-between py-2 md:px-5">
           <div>
             <Heading
-              headingClass="text-2xl font-semibold font-serif text-orange-400"
+              headingClass="text-2xl font-semibold font-serif text-red-900 dark:text-yellow-400"
               headingName="M.R Portfolio"
             />
           </div>
