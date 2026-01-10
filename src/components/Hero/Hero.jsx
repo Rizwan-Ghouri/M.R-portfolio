@@ -6,19 +6,19 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className=" bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor pt-5">
+    <div className="bg-textcolor text-darkcolor dark:bg-darkcolor dark:text-textcolor pt-5">
       <div className="container page-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center min-h-155 ">
           <div className="space-y-3 order-2 sm:order-1 md:p-5 ">
             <div data-aos="fade-up" data-aos-delay="0">
               <Heading
-                headingClass="text-md md:text-xl font-semibold font-serif duration-300"
+                headingClass="text-md md:text-xl font-semibold font-serif duration-300 "
                 headingName="Assalamualikom I'm"
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
               <Heading
-                headingClass="text-xl md:text-3xl font-semibold font-serif duration-300"
+                headingClass="text-xl md:text-3xl font-semibold font-serif duration-300 text-orange-400"
                 headingName="Muhammad Rizwan"
               />
             </div>

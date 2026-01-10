@@ -8,7 +8,7 @@ const ResponsiveMenu = ({ setShowMenu }) => {
         {Navlinks.map((links) => {
           return (
             <li
-              className=" text-xl py-1 font-serif hover:text-Dhover dark:hover:text-hover duration-300"
+              className=" text-xl py-1 font-serif hover:text-bluecolor dark:hover:text-hover duration-300"
               key={links.id}
             >
               <a

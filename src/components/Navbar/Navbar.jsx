@@ -19,7 +19,7 @@ const Navbar = ({ theme, setTheme }) => {
         <div className="flex items-center justify-between py-2 md:px-5">
           <div>
             <Heading
-              headingClass="text-xl font-semibold font-serif duration-300"
+              headingClass="text-2xl font-semibold font-serif text-orange-400"
               headingName="M.R Portfolio"
             />
           </div>
@@ -28,7 +28,7 @@ const Navbar = ({ theme, setTheme }) => {
               {Navlinks.map((data) => {
                 return (
                   <li
-                    className="font-semibold text-lg hover:p-0.5 hover:border-b-2 duration-300 cursor-pointer"
+                    className="font-semibold text-lg hover:p-0.5 hover:border-b-2 duration-300 cursor-pointer hover:text-bluecolor"
                     key={data.id}
                   >
                     <a href={data.link}>{data.name}</a>

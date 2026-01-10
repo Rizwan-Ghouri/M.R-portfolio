@@ -2,7 +2,6 @@ import React from "react";
 import Heading from "../common/Heading/Heading";
 import { FaDownload, FaFile } from "react-icons/fa";
 import mainImage from "/assets/images/mainImage.jpg";
-import circleImage from "/assets/images/circle-shape.webp";
 import Mypdf from "/assets/images/Muhammad Rizwan CV.pdf";
 
 const About = () => {
@@ -18,9 +17,7 @@ const About = () => {
             data-aos-duration="1500"
             className="space-y-4 order-1 sm:order-2 md:p-5 py-7"
           >
-            <div className="flex items-center">
-              <img className="w-15" src={circleImage} alt="circleImage" />
-
+            <div className="flex items-center pl-2">
               <Heading
                 headingClass="text-4xl inline font-semibold font-serif duration-300"
                 headingName="About Me"
