@@ -44,24 +44,3 @@
     transform: scale(0.95, 1.05);
   }
 }
-/* Light mode – normal dot */
-.slick-dots li button:before {
-  color: theme('colors.darkcolor');
-  margin: 7px 0;
-}
-
-/* Light mode – active dot */
-.slick-dots li.slick-active button:before {
-  color: theme('colors.textcolor');
-}
-
-/* Dark mode – normal dot */
-.dark .slick-dots li button:before {
-  color: theme('colors.textcolor');
-}
-
-/* Dark mode – active dot */
-.dark .slick-dots li.slick-active button:before {
-  color: theme('colors.textcolor');
-}
-
