@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../common/Heading/Heading";
 import bannerImg from "/assets/images/mainImage.jpg";
 
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -42,11 +42,26 @@ const Hero = () => {
               <a
                 href="https://www.linkedin.com/in/m-rizwanidrees/"
                 target="_blank"
+                title="LinkedIn"
               >
                 <FaLinkedinIn className="hover:text-3xl duration-300" />
               </a>
-              <a href="https://github.com/Rizwan-Ghouri" target="_blank">
+              <a href="https://github.com/Rizwan-Ghouri" target="_blank" title="GitHub">
                 <FaGithub className="hover:text-3xl duration-300" />
+              </a>
+              <a
+                href="https://www.facebook.com/ghourideveloper"
+                target="_blank"
+                title="Facebook"
+              >
+                <FaFacebook className="hover:text-3xl duration-300" />
+              </a>
+              <a
+                href="https://www.instagram.com/muhammad_rizwan145/"
+                target="_blank"
+                title="Instagram"
+              >
+                <FaInstagram className="hover:text-3xl duration-300" />
               </a>
             </div>
           </div>
