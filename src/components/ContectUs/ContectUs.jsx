@@ -22,7 +22,7 @@ function ContectUs() {
       // Open WhatsApp link in new tab
       window.open(url, "_blank");
       Swal.fire({
-        title: "Good job!",
+        title: "Thank you!",
         text: "sending",
         icon: "success",
         confirmButtonText: "Ok",
