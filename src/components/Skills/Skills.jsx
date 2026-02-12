@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="text-darkcolor dark:bg-darkcolor dark:text-textcolor p-5 pt-15 h-full h-0-screen         flex flex-col justify-center items-center"
+      className="text-darkcolor dark:bg-darkcolor dark:text-textcolor p-5 pt-15 h-full h-0-screen flex flex-col justify-center items-center"
     >
       <div>
         <div className="flex items-center justify-center">
@@ -16,13 +16,14 @@ const Skills = () => {
             headingName="My Skills"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 h-[80dvh] overflow-y-scroll scrollbar-custom p-5">
           {skillsCards.map((data, index) => (
             <div key={index}>
               <SkillsCards {...data} />
             </div>
           ))}
         </div>
+       
       </div>
     </div>
   );

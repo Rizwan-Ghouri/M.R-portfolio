@@ -5,7 +5,7 @@ const SkillsCards = ({ title, description, level, icon }) => {
   const Icon = icon;
 
   return (
-    <div data-aos="fade-up" className="text-darkcolor dark:bg-darkcolor dark:text-textcolor rounded-2xl hover:border-2 hover:border-bluecolor duration-300">
+    <div className="text-darkcolor dark:bg-darkcolor dark:text-textcolor rounded-2xl hover:border-2 hover:border-bluecolor duration-300">
       <div className="shadow-darkcolor hover:duration-500 dark:shadow-textcolor rounded-2xl shadow-lg p-5">
         <div className="flex items-center gap-4">
           <span>{<Icon className="text-3xl" />}</span>
